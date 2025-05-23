@@ -27,10 +27,10 @@ Osserviamo il numero di una figurina
 
 ?SE controllando il numero notiamo che è una fuoriserie
     -La inseriamo all'interno di una sleeve protettiva
-ALTRIMENTI :
+:ALTRIMENTI
     ?SE la figurina non è presente all'interno dell'album
         -La attacchiamo nello spazio prefefinito
-    ALTRIMENTI :
+    : ALTRIMENTI
         -La mettiamo nel mazzo dei doppioni
 
 [Ciclo finché non finisci le figurine all'interno del pacchetto]
@@ -57,31 +57,31 @@ Osserviamo il numero di una figurina del mazzo dei doppioni di Angelo
 
 ?SE la figurina è presente all'interno del mio album
     -Andiamo alla successiva 
-ALTRIMENTI :
+: ALTRIMENTI
     -Angelo controlla il mio mazzo di doppioni
             ? SE Angelo trova il numero della figurina che gli manca
                 -Facciamo lo scambio
                 -Ripeti riga 45
-            ALTRIMENTI :
+            : ALTRIMENTI
                 -Non facciamo scambi con Angelo
 
 Osserviamo il numero di una figurina del mazzo dei doppioni di Simone
 
 ?SE la figurina è presente all'interno del mio album
     -Andiamo alla successiva 
-ALTRIMENTI :
+: ALTRIMENTI
     -Simone controlla il mio mazzo di doppioni
             ? SE Simone trova il numero della figurina che gli manca
                 -Facciamo lo scambio
                 -Ripeti riga 57
-            ALTRIMENTI :
+            : ALTRIMENTI
                 -Non facciamo scambi con Simone
 
 Osserviamo il numero di una figurina del mazzo dei doppioni di Matteo
 
 ?SE la figurina è presente all'interno del mio album
     -Andiamo alla successiva 
-ALTRIMENTI :
+: ALTRIMENTI 
     -Simone controlla il mio mazzo di doppioni
             ? SE Matteo trova il numero della figurina che gli manca
                 -Facciamo lo scambio
